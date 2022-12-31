@@ -1,0 +1,16 @@
+*.sketch
+
+*.xd
+*.fig
+
+.DS_Store
+
+design/
+
+*.png
+
+style-guide.md
+
+README.md
+
+README-template.md
