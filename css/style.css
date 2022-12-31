@@ -11,6 +11,11 @@ body{
     background-image: url(../images/bg-desktop.png);
     background-position: center;
     background-size: cover;
+}
+
+section{
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,6 +23,7 @@ body{
 
 .container{
     display: flex;
+    align-items: flex-end;
 }
 
 .box-1{
@@ -28,7 +34,7 @@ body{
     border-top-right-radius: 50px;
 }
 
-.content{
+.box-1 .content{
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -36,18 +42,18 @@ body{
     padding: 20px;
 }
 
-.content .logo img{
+.box-1 .content .logo img{
     width: 65px;
     height: auto;
 }
 
-.icons{
+.box-1 .icons{
     width: 80px;
     display: flex;
     justify-content: space-between;
 }
 
-.icon{
+.box-1 .icon{
     width: 20px;
     height: 20px;
     border-radius: 5px;
@@ -57,9 +63,105 @@ body{
     align-items: center ;
 }
 
-.icon img{
+.box-1 .icon img{
     width: 10px;
     height: auto;
+}
+
+
+
+
+.box-2{
+    width: 250px;
+    height: 70px;
+    margin-left: 20px;
+    border-radius: 5px;
+    background-color: hsl(228, 56%, 26%);
+    position: relative;
+}
+
+.bytes-remaining{
+    position: absolute;
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #fff;
+    top: -21px;
+    right: 15px;
+    font-size: 5px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bytes-remaining span{
+    font-weight: 700;
+    font-size: 15px;
+    margin: 5px;
+}
+
+.bytes-remaining::after{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    right: 0;
+    border: 10px solid;
+    border-color: transparent #fff transparent transparent;
+}
+
+
+
+.box-2 .content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+.box-2 .content h1 span{
+    font-weight: 700;
+}
+
+.box-2 .content h1,
+.box-2 .content h2 {
+    font-weight: 400;
+    font-size: 8px;
+    color: #fff;
+}
+
+.box-2 .data-bar{
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;
+    margin: 5px 0px;
+    background-color: hsl(229, 57%, 11%); 
+}
+
+.box-2 .data-bar .bar{
+    width: 70%;
+    height: 10px;
+    background-color: hsl(335, 100%, 65%);
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.box-2 .data-bar .bar .boll{
+    width: 7px;
+    height: 7px;
+    border-radius: 4px;
+    background-color: #fff;
+    margin: 2px;
+}
+
+.box-2 .bytes{
+    display: flex;
+    justify-content: space-between;
 }
 
 
