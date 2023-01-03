@@ -13,9 +13,9 @@ Preview page of a storage environment.
 
 ### Print Screen
 
-![](screenshot/desktop preview.png)
+(screenshot/desktop preview.png)
 
-![](screenshot/mobile-view.png)
+(screenshot/mobile-view.png)
 
 ### Links
 
