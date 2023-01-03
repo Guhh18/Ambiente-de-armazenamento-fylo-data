@@ -1,5 +1,4 @@
 *.sketch
-
 *.xd
 *.fig
 
@@ -8,9 +7,3 @@
 design/
 
 screenshot/
-
-style-guide.md
-
-README.md
-
-README-template.md
